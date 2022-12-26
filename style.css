@@ -1,0 +1,64 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 0;
+  position: relative;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  position: relative;
+}
+
+li {
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+}
+
+.weather-app {
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffebbb;
+}
+
+#enter-city {
+  position: relative;
+  top: 25px;
+}
+#temp-now {
+  font-size: 70px;
+  position: relative;
+  top: 10px;
+}
+
+#current-sky {
+  font-size: 24px;
+  position: relative;
+  top: -15px;
+}
+
+#temp-max {
+  color: red;
+  top: 30px;
+}
+
+#temp-min {
+  color: royalblue;
+  top: 8px;
+  left: 35px;
+}
