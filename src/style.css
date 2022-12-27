@@ -23,6 +23,13 @@ li {
   list-style: none;
 }
 
+p {
+  font-size: 15px;
+  position: relative;
+  top: 270px;
+  left: -845px;
+}
+
 .container {
   display: flex;
 }
